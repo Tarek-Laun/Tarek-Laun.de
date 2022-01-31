@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    background-color: #120b22;
+    float: left;
+    width: 100%;
+    height: 3em;
+    z-index: 1;
+}
+
+nav h2 {
+    float: left;
+    margin: 0;
+    padding: 0.5em;
+    color: #ff4d00;
+}
+
+nav a {
+    float: right;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    margin: 0;
+    margin-top: 3em;
+    width: 100%;
+    height: calc(100% - 3em);
+    background-color: #190e33;
+    float: left;
+    padding: 0;
+    color: white;
+}
+
+#home {
+    margin: auto;
+    height: 37em;
+    width: 45%;
+    display: table; 
+    overflow: hidden;
+}
+
+#home h2 {
+    margin: 0;
+    color: #ff4d00;
+}
+
+#home h3 {
+    margin: 0;
+}
+
+#home p {
+    margin: 0;
+}
+
+#left {
+    margin: 2em;
+    float: left;
+    position: relative;
+    top: 35%;
+}
+
+#right {
+    display: table-cell; 
+    margin: 2em;
+    float: right;
+}
+
+#TopImage {
+    border-radius: 25px;
+    transform: perspective(1900px) rotateY(-25deg);
+}
+
+#aboutme {
+    width: 100%;
+    height: auto;
+    background-color: #170e2b;
+    padding: 2em;
+    text-align: center;
+}
+
+#aboutme h2 {
+    color: #ff4d00;
+}
+
+#orange {
+    color: #ff4d00;
+}
+
+#urls {
+    width: 100%;
+    height: 23em;
+    float: left;
+    background-color: #190e33;
+}
+
+#imgdiv {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 30%;
+}
+
+#impressum {
+    background-color: #170e2b;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 5em;
+}
+
+#impressum a {
+    color: white;
+}
+
+#footer {
+    background-color: #120b22;
+    width: 100%;
+    padding: 1em;
+    float: left;
+}
