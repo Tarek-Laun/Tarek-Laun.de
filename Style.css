@@ -139,3 +139,10 @@ main {
     padding: 1em;
     float: left;
 }
+
+#CopyRight {
+    position: fixed;
+    color: white;
+    bottom: -15px;
+    left: 5;
+}
